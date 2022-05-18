@@ -1,79 +1,51 @@
-header, nav, main, footer
+.navbar 
 {
-display: block;
-width: 1078px;
+        margin-bottom: 0;
+        border-radius: 0;
 }
-body {
- color: black;
- background-color:#000000;
- margin: 0px;
- text-align: center;
+    
+.row.content
+{
+    height: 450px
 }
-header {
- background-color:#4682B4;
- height: 100px;
- position:relative;
+
+.sidenav
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ddc4e2;
+    height: 100%;
 }
-nav {
- background-color:#AFEEEE;
- height: 150px;
-} 
-main {
- background-color:#FFFAF0;
- height: auto;
- overflow:hidden; 
-} 
-footer {
- background-color:#6495ED;
- height: 100px
- clear: both; 
+
+
+footer
+{
+    background-color: #b997c0;
+    color: white;
+    padding: 15px;
 }
-#col-center {
-background-color:#003acc;
-width: 500;
-height: 150px;
+
+@media screen and (max-width: 767px)
+{
+    .sidenav
+    {
+        height: auto;
+    }
+    .row.content {height:auto;} 
 }
-#col-left {
-background-color:#006acc;
-width: 200px;
- height: 200px;
-float: left;
-}
-#container {
- position: relative;
-margin: auto;
- width: 1078px;
- height: auto;
- overflow: hidden;
-border: 1px solid #ffffff;
-} 
-##logo {
- position: absolute;
- width: 80px;
- height: 80px;
- border: 2px dotted #731980;
-} 
-#logo img {
-max-height:100px;
+
+#logo
+{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+
+    top:10px;
+    left:4%;
+
 }
 
 #logo img
-#styl td{
-	border-collapse: collapse;
-    cellspacing: none;
-	border-color: black;
-	border-spacing: none;
-	border-width: 1px;
-	padding-left:20px;
-	padding-right:20px;
-	text-align: left;
-	}
-
-#styl tr:nth-child(even){background-color: yellow;}
-#styl tr:nth-child(odd) {background-color: blue;}
-
-#styl tr:hover {background-color: white;}
-#styl th 
 {
-	background-color: white-space;
+    max-height:30px;
 }
