@@ -1,48 +1,108 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html;
-charset=UTF-8" />
-<title>tytul</title>
-<title> Insert title here </title>
-<link href="style.css" rel="stylesheet"> 
+  <title>Jakub Sajko</title>
+  <meta charset="utf-8">
+  <link href="style.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
-<div id=”container”>
-<header>
-<div id="logo">
-<img src="logo.png" alt=”logo”> </div>
-strona
-</header>
-<nav>MENU</nav>
-<main>
-<div id="col-left">Lewa kolumna</div>
-<div id="col-center">
-<table id="styl" >
-   <tr>
-      <th rowspan="2">lp</th> <th colspan="2">Osoba</th><th rowspan="2">info</th>
-   </tr>
-   <tr>
-      <th>Imię</th> <th>Nazwisko</th>
-   </tr>
-   <tr>
-      <td>1.</td> <td>Jan</td> <td>Kowalski</td> <td>Student</td>
-   </tr>
-   <tr>
-      <td>2.</td> <td>Anna</td> <td>Nowak</td> <td>Student</td>
-   </tr>
-   <tr>
-      <td>3.</td> <td>Maria</td> <td>Kowalska</td> <td>Absolwent</td>
-   </tr>
-   <tr>
-      <td>4.</td> <td>Michał</td> <td>Nowak</td> <td>Student</td>
-   </tr>
-</table>
-</div> 
-</main>
-<footer>A tu stopka</footer>
-</div> 
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" ariaexpanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+      <a class="navbar-brand" href="#">
+        <div id="logo">
+          <img src="img/logo.jpg" alt="tytuł obrazka">
+        </div>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      <ul class="nav navbar-nav text-right">
+        <li class="active"><a href="#">Strona główna</a></li>
+        <li><a href="#">Wiadomości</a></li>
+        <li><a href="#">Galeria</a></li>
+        <li><a href="#">Kontakt</a></li>
+        <li><a href="#">Sklep</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1>WITAJ!</h1>
+      <table class="table">
+            <tr>
+                <td rowspan="2">L.p.</td>
+                <td colspan="2">Osoba</td>
+                <td rowspan="2">Info</td>
+            </tr>
+            <tr>
+                <td>Imie</td>
+                <td>Nazwisko</td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Jan</td>
+                <td>Kowalski</td>
+                <td>Student</td>
+            </tr>
+            <tr> 
+                <td>2.</td>
+                <td>Anna</td>
+                <td>Nowak</td>
+                <td>Student</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Maria</td>
+                <td>Kowalska</td>
+                <td>Absolwent</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Michał</td>
+                <td>Nowak</td>
+                <td>Student</td>
+            </tr>
+        </table>
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p>REKLAMA</p>
+      </div>
+      <div class="well">
+        <p>REKLAMA</p>
+      </div>
+      <div class="well">
+        <p>REKLAMA</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>STOPKA</p>
+</footer>
+
 </body>
 </html>
