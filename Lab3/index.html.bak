@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mix Mastering</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" ariaexpanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+      <a class="navbar-brand" href="#">
+        <div id="logo">
+          <img src="img/logo.jpg" alt="tytuł obrazka">
+        </div>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      <ul class="nav navbar-nav text-right">
+        <li class="active"><a href="#main-page">Strona główna</a></li>
+        <li><a href="#page1">Wiadomości</a></li>
+        <li><a href="#">Galeria</a></li>
+        <li><a href="#">Kontakt</a></li>
+        <li><a href="#">Sklep</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header>
+  <div class="container">
+    <div id="carouselID" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselID" data-slide-to="0"class="active"></li>
+          <li data-target="#carouselID" data-slide-to="1"></li>
+          <li data-target="#carouselID" data-slide-to="2"></li>
+          <li data-target="#carouselID" data-slide-to="3"></li>
+          <li data-target="#carouselID" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="img/obraz.jpg" alt="Michael Jordan">
+            <div class="carousel-caption">Michael Jordan</div>
+          </div>
+          <div class="item">
+            <img src="img/obraz1.jpg" alt="Dwyane Wade">
+            <div class="carousel-caption">Dwyane Wade</div>
+          </div>
+          <div class="item">
+            <img src="img/obraz2.jpg" alt="Los Angeles Lakers">
+            <div class="carousel-caption">Los Angeles Lakers</div>
+          </div>
+          <div class="item">
+            <img src="img/obraz3.jpg" alt="Donovan Mitchell">
+            <div class="carousel-caption">Donovan Mitchell</div>
+          </div>
+          <div class="item">
+            <img src="img/obraz4.jpg" alt="Dirk Nowitzki">
+            <div class="carousel-caption">Dirk Nowitzki</div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#carouselID" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" ariahidden="true"></span>
+          <span class="sr-only">Poprzedni</span>
+        </a>
+
+        <a class="right carousel-control" href="#carouselID" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" ariahidden="true"></span>
+          <span class="sr-only">Następny</span>
+        </a> 
+    </div> 
+  </div>
+</header>
+
+<section id="main-page" class="jumbotron">
+    <div class="container">
+      <h1>STRONA GŁÓWNA</h1>
+      <p>
+        Miksowanie muzyki – łączenie (mieszanie) w jeden strumień kilku sygnałów dźwiękowych, z których każdy jest nośnikiem informacji muzycznej.
+		Cel miksowania
+		Celem miksowania jest podkreślenie zalet przetwarzanego materiału muzycznego oraz połączenie ścieżek tak, by subiektywnie najlepiej do siebie pasowały i składały się w synergiczną całość. Cel ten osiąga się przez, między innymi:
+
+ustalenie proporcji między ścieżkami
+uwypuklenie charakterystycznych częstotliwości dla danych ścieżek oraz ukrycie (lub nawet wycięcie) mniej istotnych przy użyciu equalizerów i filtrów
+kompresję dynamiki ścieżek (zmniejszenie ich dynamiki i pozorne przybliżenie)
+umieszczenie ścieżek w panoramie (przestrzeni stereo, 5.1 itp.)
+nałożenie pogłosów oraz efektów typu delay i innych.
+      </p>
+    </div>
+</section>
+  
+<div class="container text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p>REKLAMA</p>
+      </div>
+      <div class="well">
+        <p>REKLAMA</p>
+      </div>
+      <div class="well">
+        <p>REKLAMA</p>
+      </div>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1 class="text-danger">WITAJ!</h1>
+      <table class="table">
+            <tr>
+                <td rowspan="2">L.p.</td>
+                <td colspan="2">Osoba</td>
+                <td rowspan="2">Info</td>
+            </tr>
+            <tr>
+                <td>Imie</td>
+                <td>Nazwisko</td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Jan</td>
+                <td>Kowalski</td>
+                <td>Student</td>
+            </tr>
+            <tr> 
+                <td>2.</td>
+                <td>Anna</td>
+                <td>Nowak</td>
+                <td>Student</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Maria</td>
+                <td>Kowalska</td>
+                <td>Absolwent</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Michał</td>
+                <td>Nowak</td>
+                <td>Student</td>
+            </tr>
+        </table>
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p>REKLAMA</p>
+      </div>
+      <div class="well">
+        <p>REKLAMA</p>
+      </div>
+      <div class="well">
+        <p>REKLAMA</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="page1">
+  <div class="container">
+    <h1 class="text-danger">WIADOMOŚCI</h1>
+    <p>
+      Fusce convallis cursus placerat. Quisque a neque ullamcorper, placerat ipsum eget, blandit nisl. 
+      Proin ullamcorper lorem quis tortor mattis, ut scelerisque dui porta. Donec eget egestas diam. 
+      Morbi luctus lacinia faucibus. Morbi faucibus, nunc non dignissim feugiat, quam diam ornare turpis, 
+      sit amet placerat elit nisi a ligula. Sed commodo iaculis feugiat. In tincidunt volutpat turpis, at tristique risus maximus et. 
+      Vestibulum vel eros quis orci accumsan venenatis. Donec ac diam ultrices ex accumsan varius eu at lorem. 
+      Sed lacinia scelerisque libero eget efficitur. Suspendisse est dolor, gravida fringilla aliquam sit amet, 
+      commodo aliquet sapien. Sed eget erat id nunc sagittis posuere at in justo. Nam et congue leo. 
+      Proin tincidunt sapien nec volutpat imperdiet.
+    </p>    
+  </div>
+</section>
+
+<div class="container">
+<div class="row">
+  <div class="col-sm-4 text-center">
+    <img src="img/1.jpg" class="img-circle center-block img-responsie" alt="Kwadrat" height=200 width=200>
+    <h3 class="text-success" >OBRAZEK 1</h3>
+  </div>
+  <div class="col-sm-4 text-center">
+    <img src="img/3.jpg" class="img-circle center-block img-responsie" alt="Kwadrat" height=200 width=200>
+    <h3 class="text-info">OBRAZEK 2</h3>
+  </div>
+  <div class="col-sm-4 text-center">
+    <img src="img/2.jpg" class="img-circle center-block img-responsie" alt="Kwadrat" height=200 width=200>
+    <h3 class="text-danger">OBRAZEK 3</h3>
+  </div>
+</div> 
+</div>
+
+<footer class="container text-center">
+    <div class="container">
+      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">
+         Polityka prywatności
+      </button> 
+    </div> 
+</footer>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" arialabel="Close"><span ariahidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">POLITYKA PRYWATNOŚCI</h4>
+      </div>
+      <div class="modal-body">
+          Phasellus finibus urna eget augue convallis convallis. Cras eu velit sit amet nisi pretium suscipit. 
+          Pellentesque suscipit arcu sed tellus dapibus, nec fermentum magna vehicula. Mauris lacinia tincidunt aliquet. 
+          Aliquam maximus libero ex, efficitur rutrum erat euismod accumsan. Vivamus rutrum molestie posuere. 
+          Sed a ante sed lectus mollis venenatis at et odio. Nunc in egestas ex. Nunc sollicitudin dolor molestie justo porttitor venenatis. 
+          Etiam accumsan eros sem, sit amet consequat diam finibus sit amet. Pellentesque ut lorem at lectus dignissim consectetur. 
+          Ut nulla dui, luctus in tortor ac, hendrerit suscipit felis.
+      </div> 
+      <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div> 
+    </div>
+  </div>
+</div> 
+
+</body>
+</html>
