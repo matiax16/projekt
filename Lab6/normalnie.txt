@@ -1,0 +1,37 @@
+<div class="container">
+      <div class="row">
+        <div class="col-sm-4 text-center">
+          <img src="img/10.jpg" class="img-rounded center-block img-responsie" alt="" id="galeria">
+          <h4 class="text-muted">Kobe Bryant i Klay Thompson</h4>
+          <h4 class="text-muted">Kiedy: Listopad 2016</h4>
+        </div>
+        <div class="col-sm-4 text-center">
+          <img src="img/12.jpg" class="img-rounded center-block img-responsie" alt="" id="galeria">
+          <h4 class="text-muted">Stephen Curry i Chris Paul</h4>
+          <h4 class="text-muted">Kiedy: Grudzieñ 2016</h4>
+        </div>
+        <div class="col-sm-4 text-center">
+          <img src="img/11.jpg" class="img-rounded center-block img-responsie" alt="" id="galeria">
+          <h4 class="text-muted">Dwyane Wade</h4>
+          <h4 class="text-muted">Kiedy: Styczeñ 2017</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4 text-center">
+          <img src="img/13.jpg" class="img-rounded center-block img-responsie" alt="" id="galeria">
+          <h4 class="text-muted">4 graczy GSW wybranych do meczu gwiazd</h4>
+          <h4 class="text-muted">Kiedy: Luty 2017</h4>
+        </div>
+        <div class="col-sm-4 text-center">
+          <img src="img/14.jpg" class="img-rounded center-block img-responsie" alt="" id="galeria">
+          <h4 class="text-muted">Lebron James i Isaiah Thomas</h4>
+          <h4 class="text-muted">Kiedy: Kwiecieñ 2017</h4>
+        </div>
+        <div class="col-sm-4 text-center">
+          <img src="img/15.jpg" class="img-rounded center-block img-responsie" alt="" id="galeria">
+          <h4 class="text-muted">Kyrie Irving</h4>
+          <h4 class="text-muted">Kiedy: Grudzieñ 2017</h4>
+        </div>
+      </div>
+    </div>
