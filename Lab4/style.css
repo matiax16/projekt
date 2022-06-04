@@ -1,0 +1,56 @@
+.navbar 
+{
+        margin-bottom: 0;
+        border-radius: 0;
+}
+
+.row.content 
+{
+    height: 400px;
+}
+    
+.sidenav
+{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+footer
+{
+    background-color: #ffffff;
+    color: white;
+    padding: 15px;
+}
+
+@media screen and (max-width: 767px)
+{
+    .sidenav
+    {
+        height: auto;
+    }
+    .row.content {height:auto;} 
+}
+
+#logo
+{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+
+    top:10px;
+    left:4%;
+
+}
+
+#logo img
+{
+    max-height:30px;
+}
+
+.carousel-caption
+{
+    color: white;
+    font-weight: 900;
+}
