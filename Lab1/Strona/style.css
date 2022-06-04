@@ -1,0 +1,100 @@
+header, nav, main, footer
+{
+    display: block;
+    width: 1000px;
+    height: 200px;
+    background-color:#d6a70e;
+}
+
+header
+{
+    position:relative;
+    height: 150px;
+
+}
+
+#logo
+{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    border: 3px dotted #995303;
+    top:20px;
+    left:20px;
+    background-color:#e0b21c;
+}
+
+#logo img
+{
+    max-height:100px;
+}
+
+body 
+{
+    color: #ffffff;
+    background-color:#ad630d;
+    margin: 60px;
+    text-align: center; 
+}
+
+main
+{
+    height: auto;
+    overflow:hidden; 
+}
+
+nav
+{
+    background-color:#e0b21c;
+    height: 150px;
+}
+
+#col-left
+{
+    background-color:#c79800;
+    width: 200px;
+    height: 400px;
+    float: left;
+}
+
+#col-center 
+{
+    height: 400px;
+    background-color:#f3cd51;
+}
+
+#container
+{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    overflow: hidden;
+    border: 5px solid #995303;
+}
+
+#tabela
+{
+    background-color:#995303;
+    position: relative;
+    left: 40px;
+    top: 30px;
+    width: 400px;
+    height: 200px;
+}
+
+tr:nth-child(odd) 
+{
+    background-color: #eebf25;
+}
+
+tr:nth-child(even) 
+{
+    background-color: #cfa310;
+}
+
+footer
+{
+    height: 100px;
+    clear: both;
+}
